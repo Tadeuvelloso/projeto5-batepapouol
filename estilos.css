@@ -10,21 +10,21 @@
 .topo{
     width: 100%;
     height: 80px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
     box-sizing: border-box;
-    box-shadow: 0px 15px 5px black;
-    z-index: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    
 }
 
 .chat{
     width: 100%;
     height: 550px;
-    background-color: rgb(235, 225, 225);
-    
+    background-color: #E5E5E5;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .cx-texto{
@@ -53,4 +53,19 @@
 }
 .none{
     display: none;
+}
+
+.mensagens{
+    padding: 10px 0px;
+    
+}
+
+.mensagens li{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 10px;
+    margin: 3px 0px;
+}
+.bold{
+    font-weight: 700;
 }

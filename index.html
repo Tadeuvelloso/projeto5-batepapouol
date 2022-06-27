@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet"> 
 
     <title>Document</title>
 </head>
@@ -16,16 +19,19 @@
             <img src="img/Vector.png">
         </div>
         <div class="chat">
-            
+            <ul class="mensagens">
+                
+            </ul>
         </div>
         <div class="cx-texto">
-            <input class="text" type="text" >
-            <p class="digite-aqui" >Digite aqui...</p>
-            <img src="img/Vector(1).png">
+            <input class="text" type="text" placeholder="Escreva aqui...">
+            
+            <img src="img/Vector(1).png" onclick="cadastrarPessoa()">
         </div>
 
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
