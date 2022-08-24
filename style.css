@@ -1,3 +1,60 @@
-head{
-    height: 60px;
+header{
+    box-sizing: border-box;
+    height: 80px;
+    width: 375px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 10px auto 0px;
+}
+
+main {
+    box-sizing: border-box;
+    height: 507px;
+    width: 375px;
+    background-color: #E5E5E5;
+    margin-top: 90px;
+    overflow: scroll;
+}
+
+footer{
+    box-sizing: border-box;
+    height: 80px;
+    width: 375px;
+    border: 1px solid black;
+}
+
+footer > div {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+footer > div > input{
+    height: 80%;
+    width: 80%;
+    border: none;
+}
+
+.chat {
+    margin-top: 20px;
+}
+
+.chat > li{
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 7px 10px 7px 10px;
+    border: 1px solid black;
 }
